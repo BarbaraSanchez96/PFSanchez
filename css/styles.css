@@ -1,0 +1,832 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    box-sizing: border-box;
+}
+body{
+   font-family: Roboto, sans-serif;
+   background-color: rgb(245, 245, 245);
+}
+.container-header{
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    width: 100%;
+}
+.header-img{
+    display: flex;
+    height: 180px;
+    justify-content: center;
+    margin-bottom: 28px;
+    margin-top: 14px;
+}
+.div-nav{
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 44px;
+    transition: all 0.2s;
+}
+nav ul li a{
+    font-family: Poppins, sans-serif;
+    color: #598B2C;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: #1e300f;
+}
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    text-align: center;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    )
+    ,url(../img/santuario.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+main h1{
+    color: #598B2C;
+    display: flex;
+    font-family: Cookie;
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 10px;
+    line-height: 24px;
+}
+main p{
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+}
+.jaulas-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 10px;
+    line-height: 24px;
+}
+.jaulas-text h2{
+    color: #598B2C;
+    display: flex;
+    font-family: Cookie;
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 10px 0 20px 0;
+}
+.jaulas-text p{
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+}
+.elefante{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+    )
+    ,url(../img/elefantes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.testeo-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 10px;
+    line-height: 24px;
+}
+.testeo-text h2{
+    color: #598B2C;
+    display: flex;
+    font-family: Cookie;
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 10px 0 20px 0;
+}
+.testeo-text p{
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+}
+.labrat{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+    )
+    ,url(../img/rata.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.piggy{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    text-align: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    )
+    ,url(../img/audiovisual/babe3.png);
+    height: 44vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.piggy h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d2e9be;
+    text-align: left;
+    font-family: Cookie, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 200;
+    margin: 20px;
+}
+.pic-title{
+    display: flex;
+}
+.movies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 20px 0;
+}
+.movies img{
+    display: flex;
+    height: 50vh;
+}
+.div-movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.peli{
+    margin: 15px;
+    line-height: 26px;
+}
+.peli h2{
+    color: #598B2C;
+    display: flex;
+    justify-content: center;
+    font-family: Poppins, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 10px;
+}
+.peli p{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.peli a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.receipes{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    text-align: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    )
+    ,url(../img/recetas/background.png);
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.receipes h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d2e9be;
+    text-align: center;
+    font-family: Cookie, sans-serif;
+    font-size: 4.4rem;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+.recetas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    width: 90%;
+}
+.recetas img{
+    height: 220px;
+}
+.recetas h2{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #345830;
+    text-align: center;
+    padding-top: 5px;
+}
+.receta{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.receta p{
+    line-height: 24px;
+    font-family: Roboto, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin: 20px;
+    color: #1b2919;
+}
+.recetas-frase{
+    display: flex;
+}
+.recetas-frase h3{
+    color: #345830;
+    font-family: Cookie;
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2.8rem;
+    line-height: 45px;
+}
+.exp h1{
+    color: #598B2C;
+    text-align: center;
+    font-family: Cookie, sans-serif;
+    font-weight: 300;
+    font-size: 3.2rem;
+    line-height: 50px;
+    padding-bottom: 35px;
+}
+.exp p{
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+}
+.crueltytitle{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    text-align: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    )
+    ,url(../img/cruelty/cruelty.png);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.crueltytitle h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(248, 215, 220);
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 2.6rem;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.marcas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.marcas img{
+    width: 110px;
+    margin: 10px 30px 10px 10px;
+    border-radius: 20%;
+}
+.brand{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand h3{
+    font-family: Poppins, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #345830;
+    padding: 15px;
+}
+.sumate h1{
+    color: #598B2C;
+    text-align: center;
+    font-family: Cookie, sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info h2{
+    display: flex;
+    color: #345830;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+.info h3{
+    color: #598B2C;
+    padding-bottom: 10px;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.formcontainer{
+    font-family: Poppins, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    background-color: #C3DAC3;
+    width: 80%;
+    margin: 0 20px 60px 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.8) 0 0 50px;
+    border-radius: 10px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    display: flex;
+    background-color: #C3DAC3;
+    font-family: Poppins, sans-serif;
+    font-size: 0.8rem;
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 15px 0px;
+    text-align: center;
+    width: 80%;
+    margin: 20px;
+    transition: all 300ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+input:focus{
+    border-bottom-color: #345830;
+}
+textarea{
+    background-color: #C3DAC3;
+    font-family: Poppins, sans-serif;
+    font-size: 0.8rem;
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 15px 0px;
+    text-align: center;
+    width: 80%;
+    margin: 20px;
+    transition: all 300ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+textarea:focus{
+    border-bottom-color: #345830;
+}
+button{
+    font-family: Roboto, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: #C3DAC3;
+    border: 2px solid #598B2C;
+    padding: 10px;
+    width: 60%;
+    color: #598B2C;
+    box-shadow: rgba(0, 0, 0, 0.8) 0 0 2px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 10%;
+}
+.footer{
+    background-color: #598B2C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 10px;
+    font-family: Inter, sans-serif;
+}
+.freedom{
+    color: rgb(245, 245, 245);
+    display: flex;
+    padding: 20px 0 10px 0;
+    font-weight: bold;
+}
+.pages{
+    color: rgb(245, 245, 245);
+    text-align: center;
+    font-size: 1rem;
+    line-height: 24px;
+    padding: 5px;
+}
+.pages h3{
+    padding: 10px;
+}
+.pages a{
+    color: #d2e9be;
+}
+.redes{
+    margin: 10px;
+    justify-content: flex-end;
+}
+.redes a i{
+    color: rgb(245, 245, 245);
+    font-size: 50px;
+    padding: 10px;
+    bottom: 20px;
+    transition: all 0.2s;
+}
+.pages a:hover{
+    color: #1e300f;
+}
+a i:hover{
+    color: #1e300f;
+    transform: scale(1.2);
+}
+
+@media (min-width:720px){
+    nav ul{
+        flex-direction: column;
+    }
+    .container-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .header-img{
+        height: 200px;
+        margin-left: 20px;
+    }
+    nav ul li a{
+        padding: 10px;
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .footer{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .freedom p{
+        font-size: 1rem;
+    }
+    .redes a i{
+        font-size: 45px;
+    }
+    .pages h3{
+        margin-top: -10px;
+    }
+    .pages{
+        font-size: 1.1rem;
+    }
+    main h1{
+        justify-content: center;
+    }
+    main h1, .jaulas-text h2, .testeo-text h2{
+        font-size: 2.4rem;
+    }
+    main p, .jaulas-text p, .testeo-text p{
+        font-size: 1.1rem;
+        line-height: 30px;
+    }
+    .piggy{
+        width: 100vw;
+    }
+    .piggy h1{
+        font-size: 5.5rem;
+    }
+    .movies img{
+        height: 35vh;
+    }
+    .peli{
+        border: 1.5px solid #345830;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 30px;
+        line-height: 26px;
+    }
+    .peli h2{
+        font-size: 1.5rem;
+    }
+    .peli p{
+        font-size: 1.3rem;
+        line-height: 35px;
+        font-style: italic;
+    }
+    .peli a{
+        padding: 30px;
+    }
+    .receipes{
+        height: 40vh;
+    }
+    .receipes h1{
+        font-size: 6.4rem;
+    }
+    .recetas{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .recetas img{
+        height: 320px;
+    }
+    .recetas h2{
+        font-size: 2.1rem;
+    }
+    .receta p{
+        line-height: 40px;
+        font-size: 1.4rem;
+    }
+    .recetas-frase h3{
+        font-size: 3.5rem;
+        line-height: 60px;
+    }
+    .crueltytitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .crueltytitle h2{
+        font-size: 4rem;
+    }
+    .marcas{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .marcas img{
+        width: 155px;
+        padding: 10px;
+    }
+    .brand h3{
+        font-size: 1.2rem;
+        padding: 20px;
+    }
+    .exp h1{
+        font-size: 3.8rem;
+    }
+    .exp p{
+        font-size: 1.2rem;
+    }
+    .info h2{
+        font-size: 1.3rem;
+        line-height: 40px;
+    }
+    input{
+        font-size: 1rem;
+    }
+    textarea{
+        font-size: 1rem;
+    }
+    form{
+        background-color: #C3DAC3;
+        width: 60vw;
+    }
+    button{
+        font-size: 1.2rem;
+    }
+    .sumate h1{
+        font-size: 5rem;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:1025px){
+    nav ul{
+        flex-direction: row;
+    }
+    .container-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-img{
+        height: 150px;
+        margin-left: 20px;
+    }
+    nav ul li a{
+        padding: 18px;
+        font-size: 1.4rem;
+        font-weight: 800;
+    }
+    .footer{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .pages h3{
+        margin-top: -10px;
+    }
+    main h1{
+        font-size: 3.5rem;
+        padding: 15px;
+    }
+    .jaulas-text h2, .testeo-text h2{
+        font-size: 2.4rem;
+    }
+    main p, .jaulas-text p, .testeo-text p{
+        font-size: 1.1rem;
+        line-height: 30px;
+    }
+    .div-movies{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 20px;
+    }
+    .movies img{
+        height: 50vh;
+    }
+    .peli{
+        padding: 10px;
+    }
+    .peli p{
+        font-size: 1.2rem;
+        line-height: 30px;
+        font-style:normal;
+        font-family: Roboto, sans-serif;
+    }
+    .movies h1{
+        font-size: 4.6rem;
+        padding: 20px;
+    }
+    .piggy{
+        width: 100vw;
+        height: 40vh;
+        background-position: 80% 20%;
+    }
+    .piggy h1{
+        font-size: 5.5rem;
+        font-weight: 200;
+        margin: 0;
+    }
+    .exp h1{
+        font-size: 4.4rem;
+    }
+    .exp p{
+        font-size: 1.2rem;
+        line-height: 35px;
+        margin: 20px;
+    }
+    .crueltytitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .crueltytitle h2{
+        font-size: 4.6rem;
+    }
+    .marcas{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        margin: 20px;
+        padding: 10px;
+    }
+    .marcas img{
+        width: 220px;
+    }
+    .brand h3{
+        font-size: 1rem;
+        color: black;
+    }
+    .receipes h1{
+        font-size: 6.4rem;
+    }
+    .recetas{
+        display: grid;
+        grid-template-columns: 35% 30% 35%;
+        justify-content: center;
+        align-items: center;
+    }
+    .receta{
+        border: 1.5px solid #345830;
+        margin: 20px;
+        padding: 20px;
+    }
+    .recetas img{
+        height: 210px;
+    }
+    .recetas h2{
+        font-size: 1.5rem;
+    }
+    .receta p{
+        font-size: 1rem;
+        line-height: 30px;
+        text-align: center;
+    }
+    form{
+        width: 40vw;
+    }
+    input{
+        font-size: 0.9rem;
+    }
+    textarea{
+        font-size: 0.9rem;
+    }
+    .sumate h1{
+        font-size: 6rem;
+    }
+    .info h2{
+        justify-content: center;
+        font-size: 1.3rem;
+        padding: 20px;
+        margin: 10px;
+    }
+    .info h3{
+        font-size: 1.9rem;
+    }
+    button:hover{
+        color: #1e300f;
+        transform: scale(1.1);
+    }
+    .recetas-frase h3{
+        font-size: 4.2rem;
+        padding-bottom: 60px;
+    }
+}
+@media (min-width: 1410px){
+    .receta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 60px 20px 60px;
+    }
+    .recetas img{
+        height: 280px;
+    }
+}
