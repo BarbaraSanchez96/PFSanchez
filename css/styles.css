@@ -754,15 +754,13 @@ a i:hover{
     .marcas{
         display: grid;
         grid-template-columns: 30% 30% 30%;
-        margin: 20px;
-        padding: 10px;
+        width: 100vw;
     }
     .marcas img{
-        width: 220px;
+        width: 140px;
     }
     .brand h3{
-        font-size: 1rem;
-        color: black;
+        font-size: 0.9rem;
     }
     .receipes h1{
         font-size: 6.4rem;
@@ -819,7 +817,8 @@ a i:hover{
         padding-bottom: 60px;
     }
 }
-@media (min-width: 1410px){
+
+@media (min-width: 1400px){
     .receta{
         display: flex;
         justify-content: center;
@@ -828,5 +827,15 @@ a i:hover{
     }
     .recetas img{
         height: 280px;
+    }
+    .marcas{
+        padding: 0;
+    }
+    .marcas img{
+        width: 200px;
+    }
+    .brand h3{
+        font-size: 1rem;
+        padding: 0;
     }
 }
